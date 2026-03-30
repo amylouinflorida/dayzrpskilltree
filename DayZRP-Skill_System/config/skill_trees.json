@@ -1,17 +1,91 @@
 {
-  "version": 1,
-  "overall_xp_per_point": 100,
-  "overall_xp_cap": 11000,
-  "trees": {
-    "survival": {
-      "display_name": "Survival",
-      "tree_xp_cap": 2600,
+  "trees": [
+    {
+      "id": "survival",
+      "name": "Survival",
+      "color": "#6A8F3A",
       "tier_unlocks": {
-        "2": 200,
-        "3": 400,
-        "4": 700
+        "2": 300,
+        "3": 700,
+        "4": 1200
       },
-      "skills": {}
+      "tiers": [
+        {
+          "tier": 1,
+          "skills": [
+            {
+              "id": "dialed_in",
+              "name": "Dialed In",
+              "max_level": 3,
+              "xp_costs": [100, 200, 300]
+            },
+            {
+              "id": "homeostasis",
+              "name": "Homeostasis",
+              "max_level": 2,
+              "xp_costs": [100, 200]
+            }
+          ]
+        },
+        {
+          "tier": 2,
+          "skills": [
+            {
+              "id": "campfire_mastery",
+              "name": "Campfire Mastery",
+              "max_level": 3,
+              "xp_costs": [150, 250, 350]
+            },
+            {
+              "id": "endurance",
+              "name": "Endurance",
+              "max_level": 2,
+              "xp_costs": [150, 250]
+            }
+          ]
+        },
+        {
+          "tier": 3,
+          "skills": [
+            {
+              "id": "field_dressing",
+              "name": "Field Dressing",
+              "max_level": 2,
+              "xp_costs": [200, 300]
+            },
+            {
+              "id": "thick_skin",
+              "name": "Thick Skin",
+              "max_level": 3,
+              "xp_costs": [200, 300, 400],
+              "is_bridge": true
+            },
+            {
+              "id": "well_fed",
+              "name": "Well Fed",
+              "max_level": 3,
+              "xp_costs": [200, 300, 400]
+            }
+          ]
+        },
+        {
+          "tier": 4,
+          "skills": [
+            {
+              "id": "last_stand",
+              "name": "Last Stand",
+              "max_level": 1,
+              "xp_costs": [500]
+            },
+            {
+              "id": "field_medic",
+              "name": "Field Medic",
+              "max_level": 3,
+              "xp_costs": [250, 350, 450]
+            }
+          ]
+        }
+      ]
     }
-  }
+  ]
 }

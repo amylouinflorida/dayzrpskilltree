@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "overall_xp_per_point": 100,
+  "overall_xp_cap": 11000,
+  "trees": {
+    "survival": {
+      "display_name": "Survival",
+      "tree_xp_cap": 2600,
+      "tier_unlocks": {
+        "2": 200,
+        "3": 400,
+        "4": 700
+      },
+      "skills": {}
+    }
+  }
+}
